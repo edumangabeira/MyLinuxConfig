@@ -16,6 +16,7 @@ para gerar chave:
 Após gerar a chave, navega-se até o diretório com a chave pública
 
 `cd .ssh/`
+
 `cat id_rsa.pub`
 
 Depois basta copiar e colar a chave nas settings do GitHub para estabelecer a conexão.
@@ -48,6 +49,7 @@ Clonando esse repositório, basta rodar os scripts de acordo com a necessidade.
 Como o ip é essencial, a instalação é padrão.
 
 `sudo apt-get update`
+
 `sudo apt-get install build-essential`
 
 Também considero virtualenvs necessárias.
@@ -65,11 +67,15 @@ para baixar tudo de uma vez:
 `pip3 install wheel requests bs4 selenium`
 
 para fazer um request diretamente e parsear o html:
+
 `pip3 install wheel`
+
 `pip3 install requests`
+
 `pip3 install bs4`
 
 para simular um navegador:
+
 `pip3 install selenium`
 
 não coloquei aqui o chromedriver ou o firefoxdriver, pois as versões podem mudar muito de uma máquina para outra, é algo que pode ser feito manualmente para o meu propósito.
@@ -85,6 +91,7 @@ Não acho que valha a pena incluir extensões do flask no download rápido, mas 
 # R
 
 `sudo apt-get install r-base`
+
 `sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev`
 
 Para instalar o tidyverse aparentemente não tem jeito(esses estatísticos...), é preciso entrar no R e digitar `install.packages("tidyverse")`
