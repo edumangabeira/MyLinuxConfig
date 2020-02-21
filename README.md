@@ -1,7 +1,10 @@
 # MyLinuxConfig
+
 Salvando configurações e downloads que eu possa querer fazer ao começar a usar uma nova distro.
 
 Vou deixar um script que executa todos os passos de uma vez só, mas a intenção é dividir em blocos, ou seja, um script para cada área de uso(web scraping, desenvolvimento web, etc) ou para cada linguagem.
+
+Usei o Linux Mint 19.3 Tricia. o laptop é um A315-41-R2MH.
 
 # Git
 
@@ -22,6 +25,18 @@ Após gerar a chave, navega-se até o diretório com a chave pública
 Depois basta copiar e colar a chave nas settings do GitHub para estabelecer a conexão.
 
 Clonando esse repositório, basta rodar os scripts de acordo com a necessidade.
+
+se você tem tempo e espaço de armazenamento, para instalar tudo basta digitar:
+
+`bash easy_install.sh`
+
+Para instalar por módulos:
+
+* spotify: `bash spotify.sh`
+* python(desenvolvimento web): `bash pywebdev.sh`
+* python(webscraping): `bash pyscraping.sh`
+* R: `rconfig.sh`
+* editores de texto: `editors.sh` 
 
 # Editores de texto
 
@@ -44,9 +59,6 @@ Clonando esse repositório, basta rodar os scripts de acordo com a necessidade.
 `sudo apt-get install spotify-client`
 
 # Python
-
-
-Como o ip é essencial, a instalação é padrão.
 
 `sudo apt-get update`
 
@@ -79,6 +91,10 @@ para simular um navegador:
 `pip3 install selenium`
 
 não coloquei aqui o chromedriver ou o firefoxdriver, pois as versões podem mudar muito de uma máquina para outra, é algo que pode ser feito manualmente para o meu propósito.
+
+Decidi incluir também o jupyter, pois nunca é demais mostrar o código bonito pro coleguinha.
+
+pip3 install jupyter
 
 ## Web development
 
