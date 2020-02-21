@@ -85,5 +85,6 @@ Não acho que valha a pena incluir extensões do flask no download rápido, mas 
 # R
 
 `sudo apt-get install r-base`
+`sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev`
 
 Para instalar o tidyverse aparentemente não tem jeito(esses estatísticos...), é preciso entrar no R e digitar `install.packages("tidyverse")`
