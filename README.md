@@ -35,8 +35,8 @@ Para instalar por módulos:
 * spotify: `bash spotify.sh`
 * python(desenvolvimento web): `bash pywebdev.sh`
 * python(webscraping): `bash pyscraping.sh`
-* R: `rconfig.sh`
-* editores de texto: `editors.sh` 
+* R: `bash rconfig.sh`
+* editores de texto: `bash editors.sh` 
 
 # Editores de texto
 
@@ -68,7 +68,7 @@ Também considero virtualenvs necessárias.
 
 `sudo pip3 install virtualenv`
 
-Eu tive o seguinte erro ao executar a linha acima: `ModuleNotFoundError: No module named 'setuptools'`, que pode ser resolvido fazendo upgrade do pacote e depois executando novamente`sudo pip3 install virtualenv`
+Eu tive o seguinte erro ao executar a linha acima: `ModuleNotFoundError: No module named 'setuptools'`, que pode ser resolvido fazendo upgrade do pacote e depois executando novamente `sudo pip3 install virtualenv`
 
 `pip install --upgrade setuptools`
 
