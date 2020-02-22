@@ -22,11 +22,11 @@ Após gerar a chave, navega-se até o diretório com a chave pública
 
 `cat id_rsa.pub`
 
-Depois basta copiar e colar a chave nas settings do GitHub para estabelecer a conexão.
+Depois copie e cole a chave nas settings do GitHub para estabelecer a conexão.
 
-Clonando esse repositório, basta rodar os scripts de acordo com a necessidade.
+Clonando esse repositório, rode os scripts de acordo com a necessidade.
 
-se você tem tempo e espaço de armazenamento, para instalar tudo basta digitar:
+Se você tem tempo e espaço de armazenamento, para instalar tudo digite:
 
 `bash easy_install.sh`
 
@@ -37,6 +37,10 @@ Para instalar por módulos:
 * python(webscraping): `bash pyscraping.sh`
 * R: `bash rconfig.sh`
 * editores de texto: `bash editors.sh` 
+
+
+Fiz um script em python(3.x) caso queira adicionar novos comandos sem precisar reescrevê-los em todos os arquivos em que o novo módulo a ser instalado faça sentido estar presente. Abra o arquivo `new_module.py`, copie e cole os comandos(entre aspas e separados por vírgulas) dentro da lista `commands=[]`. Exemplo:`commands=["comando1","comando2"]`
+
 
 # Editores de texto
 
@@ -94,7 +98,7 @@ não coloquei aqui o chromedriver ou o firefoxdriver, pois as versões podem mud
 
 Decidi incluir também o jupyter, pois nunca é demais mostrar o código bonito pro coleguinha.
 
-pip3 install jupyter
+`pip3 install jupyter`
 
 ## Web development
 
